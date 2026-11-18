@@ -1,5 +1,5 @@
 const express = require('express')
-const router = express.Router();
+const router = express.Router(); // creates separate router object to handle routes
 const {signup,login,logout} = require("../controllers/userAuthentication.js")
 // const {signin} = require("../controllers")
 // importing validators
